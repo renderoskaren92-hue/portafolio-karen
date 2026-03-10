@@ -1,0 +1,150 @@
+/* estilo general */
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f6f9;
+color:#333;
+}
+
+/* header */
+header{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+/* menú */
+nav{
+background:#34495e;
+padding:10px;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+justify-content:center;
+padding:0;
+}
+
+nav li{
+margin:0 15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#1abc9c;
+}
+
+/* secciones */
+.section{
+background:white;
+margin:30px auto;
+padding:30px;
+width:80%;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+animation:fadeIn 1s ease;
+}
+
+/* animación */
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* foto perfil */
+.perfil{
+text-align:center;
+margin-bottom:20px;
+}
+
+.perfil img{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #1abc9c;
+}
+
+/* habilidades */
+.skills{
+list-style:none;
+padding:0;
+}
+
+.skill-bar{
+background:#ddd;
+height:10px;
+border-radius:5px;
+margin:5px 0 15px;
+}
+
+.skill-progress{
+height:10px;
+border-radius:5px;
+background:#1abc9c;
+}
+
+/* niveles habilidades */
+
+.html{ width:70%; }
+.sql{ width:50%; }
+.jira{ width:60%; }
+.testrail{ width:50%; }
+.ingles{ width:40%; }
+.detalle{ width:80%; }
+
+/* formulario */
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+input[type="submit"]{
+background:#1abc9c;
+color:white;
+border:none;
+cursor:pointer;
+transition:0.3s;
+}
+
+input[type="submit"]:hover{
+background:#16a085;
+}
+
+/* footer */
+footer{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+
+/*perfil*/
+.perfil img{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+border:3px solid #1abc9c;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+}
